@@ -19,10 +19,7 @@ class GameContainer extends Component {
         Characters: Characters
     }
 
-    handleGuess = id => {
-
-        // HERE I WANT TO PUSH THE ID OF THE SELECTED CHARACTER TO THE ARRAY SELECTEDcHARACTERS
-
+    handleGuess = () => {
         // THEN CHECK AND SEE IF THE CHOSEN CHARACTER HAS BEEN SELECTED ALREADY BY COMPARING IT TO THE SELECTED CHARACTERS ARRAY
         if ("selectedCharacters.id" === "chosenCharacter.id") {
             alert("YOU LOST!!!")
@@ -31,7 +28,9 @@ class GameContainer extends Component {
         else {
             this.shuffle(Characters)
             this.setState({ selectedCharacters: this.state.Characters.id});
-            alert({id})
+             // HERE I WANT TO PUSH THE ID OF THE SELECTED CHARACTER TO THE ARRAY selectedCharacters
+            // alert(this.state.Characters.key)
+            // alert({Characters})
         }
     }
 
@@ -67,7 +66,6 @@ class GameContainer extends Component {
                                 <CharacterCard
                                     chooseCharacter={this.chooseCharacter}
                                     handleGuess={this.handleGuess}
-                                    // shuffle={this.shuffle}
                                     id={Character.id}
                                     key={Character.id}
                                     name={Character.name}
