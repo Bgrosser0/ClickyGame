@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Finn",
+        "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/f/f3/Original_Finn.png/revision/latest?cb=20120921151658"
+    },
+    {
+        "id": 2,
+        "name": "Jake",
+        "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/3/3b/Jakesalad.png/revision/latest?cb=20160503014517"
+    },
+    {
+        "id": 3,
+        "name": "Marceline",
+        "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/e/e0/Marceline_Stock_Night.png/revision/latest?cb=20121003133650"
+    },
+    {
+        "id": 4,
+        "name": "Ice King",
+        "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/6/64/Original_Ice_King.png/revision/latest?cb=20160405041324"
+    },
+    {
+        "id": 5,
+        "name": "BMO",
+        "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/8/81/BMO.png/revision/latest?cb=20161024201513"
+    },
+    {
+        "id": 6,
+        "name": "Princess Bubblegum",
+        "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/0/00/Princess_Bubblegum.png/revision/latest?cb=20120921151236"
+    },
+    {
+        "id": 7,
+        "name": "LSP",
+        "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/9/9f/Lumpy_Space.png/revision/latest?cb=20110730224431"
+    },
+    {
+        "id": 8,
+        "name": "Flame Princess",
+        "image": "https://vignette.wikia.nocookie.net/adventuretimewithfinnandjake/images/1/12/Flame_Queen.png/revision/latest?cb=20170519024127"
+    }
+]
